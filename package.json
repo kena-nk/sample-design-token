@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "token-transformer": "^0.0.20"
+  }
+}
