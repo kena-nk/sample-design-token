@@ -1,0 +1,16 @@
+{
+  "Gray": {
+    "0": {
+      "value": "#FFF",
+      "type": "color"
+    },
+    "50": {
+      "value": "#D9D9D9",
+      "type": "color"
+    },
+    "100": {
+      "value": "#000",
+      "type": "color"
+    }
+  }
+}
