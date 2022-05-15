@@ -1,16 +1,62 @@
 {
-  "Gray": {
-    "0": {
-      "value": "#FFF",
+  "colors": {
+    "black": {
+      "value": "#000000",
       "type": "color"
     },
-    "50": {
-      "value": "#D9D9D9",
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    }
+  },
+  "theme": {
+    "fg": {
+      "value": "#000000",
       "type": "color"
     },
-    "100": {
-      "value": "#000",
+    "bg": {
+      "value": "#ffffff",
       "type": "color"
+    }
+  },
+  "space": {
+    "xs": {
+      "value": 2,
+      "type": "spacing",
+      "description": "最小"
+    },
+    "sm": {
+      "value": 4,
+      "type": "spacing",
+      "description": "小"
+    },
+    "lg": {
+      "value": 8,
+      "type": "spacing",
+      "description": "大"
+    },
+    "xl": {
+      "value": 16,
+      "type": "spacing",
+      "description": "最大"
+    }
+  },
+  "borderRadius": {
+    "xs": {
+      "value": 2,
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": 8,
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": 16,
+      "type": "borderRadius"
     }
   }
 }
