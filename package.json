@@ -1,8 +1,14 @@
 {
+  "scripts": {
+    "build:tokens": "style-dictionary build",
+    "build:figma": "node ./scripts/figma.js"
+  },
   "devDependencies": {
     "token-transformer": "^0.0.20"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.4",
     "style-dictionary": "^3.7.0"
   }
 }
