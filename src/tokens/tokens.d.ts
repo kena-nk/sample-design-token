@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 13:49:17 GMT
+ * Generated on Mon, 16 May 2022 14:11:17 GMT
  */
 
 export default tokens;
@@ -24,11 +24,8 @@ declare interface DesignToken {
 declare const tokens: {
   "colors": {
     "black": DesignToken,
-    "white": DesignToken
-  },
-  "theme": {
-    "fg": DesignToken,
-    "bg": DesignToken
+    "white": DesignToken,
+    "red": DesignToken
   },
   "space": {
     "xs": DesignToken,

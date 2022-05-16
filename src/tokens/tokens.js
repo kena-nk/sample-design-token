@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 15 May 2022 13:49:17 GMT
+ * Generated on Mon, 16 May 2022 14:11:17 GMT
  */
 
 module.exports = {
@@ -8,7 +8,7 @@ module.exports = {
     "black": {
       "value": "#000000",
       "type": "color",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -27,7 +27,7 @@ module.exports = {
     "white": {
       "value": "#ffffff",
       "type": "color",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -42,45 +42,24 @@ module.exports = {
         "colors",
         "white"
       ]
-    }
-  },
-  "theme": {
-    "fg": {
-      "value": "#000000",
-      "type": "color",
-      "filePath": "output.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "name": "ThemeFg",
-      "attributes": {
-        "category": "theme",
-        "type": "fg"
-      },
-      "path": [
-        "theme",
-        "fg"
-      ]
     },
-    "bg": {
-      "value": "#ffffff",
+    "red": {
+      "value": "#df0000",
       "type": "color",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
-        "value": "#ffffff",
+        "value": "#df0000",
         "type": "color"
       },
-      "name": "ThemeBg",
+      "name": "ColorsRed",
       "attributes": {
-        "category": "theme",
-        "type": "bg"
+        "category": "colors",
+        "type": "red"
       },
       "path": [
-        "theme",
-        "bg"
+        "colors",
+        "red"
       ]
     }
   },
@@ -89,7 +68,7 @@ module.exports = {
       "value": 2,
       "type": "spacing",
       "description": "最小",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 2,
@@ -110,7 +89,7 @@ module.exports = {
       "value": 4,
       "type": "spacing",
       "description": "小",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 4,
@@ -131,7 +110,7 @@ module.exports = {
       "value": 8,
       "type": "spacing",
       "description": "大",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 8,
@@ -152,7 +131,7 @@ module.exports = {
       "value": 16,
       "type": "spacing",
       "description": "最大",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 16,
@@ -174,7 +153,7 @@ module.exports = {
     "xs": {
       "value": 2,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 2,
@@ -193,7 +172,7 @@ module.exports = {
     "sm": {
       "value": 4,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 4,
@@ -212,7 +191,7 @@ module.exports = {
     "lg": {
       "value": 8,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 8,
@@ -231,7 +210,7 @@ module.exports = {
     "xl": {
       "value": 16,
       "type": "borderRadius",
-      "filePath": "output.json",
+      "filePath": "design-tokens/output.json",
       "isSource": true,
       "original": {
         "value": 16,

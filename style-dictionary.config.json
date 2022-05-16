@@ -1,5 +1,5 @@
 {
-  "source": ["output.json"],
+  "source": ["design-tokens/output.json"],
   "platforms": {
     "scss": {
       "buildPath": "src/tokens/",

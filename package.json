@@ -1,7 +1,7 @@
 {
   "license": "UNLICENSED",
   "scripts": {
-    "token:getJson": "./node_modules/.bin/token-transformer data/tokens.json output.json",
+    "token:getJson": "./node_modules/.bin/token-transformer design-tokens/data/tokens.json design-tokens/output.json",
     "build:tokens": "style-dictionary build --config style-dictionary.config.json",
     "build:figma": "node ./scripts/figma.js",
     "token": "run-s token:getJson build:tokens"

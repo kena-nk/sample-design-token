@@ -7,15 +7,9 @@
     "white": {
       "value": "#ffffff",
       "type": "color"
-    }
-  },
-  "theme": {
-    "fg": {
-      "value": "#000000",
-      "type": "color"
     },
-    "bg": {
-      "value": "#ffffff",
+    "red": {
+      "value": "#df0000",
       "type": "color"
     }
   },
