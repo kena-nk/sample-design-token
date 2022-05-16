@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 01 May 2022 08:23:02 GMT
+ * Generated on Sun, 15 May 2022 13:49:17 GMT
  */
 
 export default tokens;
@@ -22,9 +22,24 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
-  "Gray": {
-    "0": DesignToken,
-    "50": DesignToken,
-    "100": DesignToken
+  "colors": {
+    "black": DesignToken,
+    "white": DesignToken
+  },
+  "theme": {
+    "fg": DesignToken,
+    "bg": DesignToken
+  },
+  "space": {
+    "xs": DesignToken,
+    "sm": DesignToken,
+    "lg": DesignToken,
+    "xl": DesignToken
+  },
+  "borderRadius": {
+    "xs": DesignToken,
+    "sm": DesignToken,
+    "lg": DesignToken,
+    "xl": DesignToken
   }
 }

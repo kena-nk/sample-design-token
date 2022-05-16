@@ -1,17 +1,41 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 01 May 2022 08:23:02 GMT
+ * Generated on Sun, 15 May 2022 13:49:17 GMT
  */
 
-$gray-100: #000 !default;
-$gray-50: #D9D9D9 !default;
-$gray-0: #FFF !default;
+$border-radius-xl: 16 !default;
+$border-radius-lg: 8 !default;
+$border-radius-sm: 4 !default;
+$border-radius-xs: 2 !default;
+$space-xl: 16 !default;
+$space-lg: 8 !default;
+$space-sm: 4 !default;
+$space-xs: 2 !default;
+$theme-bg: #ffffff !default;
+$theme-fg: #000000 !default;
+$colors-white: #ffffff !default;
+$colors-black: #000000 !default;
 
 $css-tokens: (
-  'Gray': (
-    '0': $gray-0,
-    '50': $gray-50,
-    '100': $gray-100
+  'colors': (
+    'black': $colors-black,
+    'white': $colors-white
+  ),
+  'theme': (
+    'fg': $theme-fg,
+    'bg': $theme-bg
+  ),
+  'space': (
+    'xs': $space-xs,
+    'sm': $space-sm,
+    'lg': $space-lg,
+    'xl': $space-xl
+  ),
+  'borderRadius': (
+    'xs': $border-radius-xs,
+    'sm': $border-radius-sm,
+    'lg': $border-radius-lg,
+    'xl': $border-radius-xl
   )
 );
