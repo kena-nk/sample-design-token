@@ -1,5 +1,8 @@
 {
-  "license": "UNLICENSED",
+  "name": "@nk/sample-design-token",
+  "version": "1.0.0",
+  "main": "src/tokens/tokens.scss",
+  "license": "MIT",
   "scripts": {
     "token:getJson": "./node_modules/.bin/token-transformer design-tokens/data/tokens.json design-tokens/output.json",
     "build:tokens": "style-dictionary build --config style-dictionary.config.json",
@@ -7,12 +10,11 @@
     "token": "run-s token:getJson build:tokens"
   },
   "devDependencies": {
-    "token-transformer": "^0.0.20"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.0.1",
     "node-fetch": "^3.2.4",
     "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.20",
     "yarn-run-all": "^3.1.1"
-  }
+  },
+  "dependencies": {}
 }
