@@ -1,2 +1,5 @@
 /node_modules
 .env
+
+# 制作途中なので非表示にしてる
+/scripts
