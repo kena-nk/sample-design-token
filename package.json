@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "style": "dist/tokens.css",
   "typings": "dist/tokens.d.ts",
-  "main": "dist/tokens/tokens.js",
+  "main": "dist/tokens.js",
   "license": "MIT",
   "private": false,
   "scripts": {
