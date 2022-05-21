@@ -1,8 +1,12 @@
 {
-  "name": "@nk/sample-design-token",
+  "name": "@kenaorange/sample-design-token",
   "version": "1.0.0",
   "main": "src/tokens/tokens.scss",
   "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "token:getJson": "./node_modules/.bin/token-transformer design-tokens/data/tokens.json design-tokens/output.json",
     "build:tokens": "style-dictionary build --config style-dictionary.config.json",
