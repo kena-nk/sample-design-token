@@ -1,6 +1,6 @@
 {
   "name": "@kenaorange/sample-design-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "style": "dist/tokens.css",
   "typings": "dist/tokens.d.ts",
   "main": "dist/tokens.js",
