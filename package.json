@@ -1,14 +1,16 @@
 {
   "name": "@kenaorange/sample-design-token",
   "version": "1.0.0",
-  "main": "src/tokens/tokens.scss",
+  "style": "dist/tokens.css",
+  "typings": "dist/tokens.d.ts",
+  "main": "dist/tokens/tokens.js",
   "license": "MIT",
   "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "token:getJson": "./node_modules/.bin/token-transformer design-tokens/data/tokens.json design-tokens/output.json",
+    "token:getJson": "./node_modules/.bin/token-transformer tokens/data/tokens.json tokens/output.json",
     "build:tokens": "style-dictionary build --config style-dictionary.config.json",
     "build:figma": "node ./scripts/figma.js",
     "token": "run-s token:getJson build:tokens"
@@ -19,6 +21,5 @@
     "style-dictionary": "^3.7.0",
     "token-transformer": "^0.0.20",
     "yarn-run-all": "^3.1.1"
-  },
-  "dependencies": {}
+  }
 }
