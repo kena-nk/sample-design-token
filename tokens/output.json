@@ -1,0 +1,56 @@
+{
+  "colors": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "red": {
+      "value": "#df0000",
+      "type": "color"
+    }
+  },
+  "space": {
+    "xs": {
+      "value": 2,
+      "type": "spacing",
+      "description": "最小"
+    },
+    "sm": {
+      "value": 4,
+      "type": "spacing",
+      "description": "小"
+    },
+    "lg": {
+      "value": 8,
+      "type": "spacing",
+      "description": "大"
+    },
+    "xl": {
+      "value": 16,
+      "type": "spacing",
+      "description": "最大"
+    }
+  },
+  "borderRadius": {
+    "xs": {
+      "value": 2,
+      "type": "borderRadius"
+    },
+    "sm": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": 8,
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": 16,
+      "type": "borderRadius"
+    }
+  }
+}
