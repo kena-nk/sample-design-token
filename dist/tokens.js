@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 21 May 2022 08:47:40 GMT
+ * Generated on Sun, 22 May 2022 11:26:37 GMT
  */
 
 module.exports = {
@@ -60,6 +60,25 @@ module.exports = {
       "path": [
         "colors",
         "red"
+      ]
+    },
+    "pink": {
+      "value": "#ffbdc8",
+      "type": "color",
+      "filePath": "tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffbdc8",
+        "type": "color"
+      },
+      "name": "ColorsPink",
+      "attributes": {
+        "category": "colors",
+        "type": "pink"
+      },
+      "path": [
+        "colors",
+        "pink"
       ]
     }
   },
