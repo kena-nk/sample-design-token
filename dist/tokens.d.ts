@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 May 2022 12:33:51 GMT
+ * Generated on Sun, 22 May 2022 12:37:19 GMT
  */
 
 export default tokens;
@@ -27,7 +27,8 @@ declare const tokens: {
     "white": DesignToken,
     "red": DesignToken,
     "pink": DesignToken,
-    "blue": DesignToken
+    "blue": DesignToken,
+    "orange": DesignToken
   },
   "space": {
     "xs": DesignToken,

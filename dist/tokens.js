@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 22 May 2022 12:33:51 GMT
+ * Generated on Sun, 22 May 2022 12:37:19 GMT
  */
 
 module.exports = {
@@ -98,6 +98,25 @@ module.exports = {
       "path": [
         "colors",
         "blue"
+      ]
+    },
+    "orange": {
+      "value": "#ffa800",
+      "type": "color",
+      "filePath": "tokens/output.json",
+      "isSource": true,
+      "original": {
+        "value": "#ffa800",
+        "type": "color"
+      },
+      "name": "ColorsOrange",
+      "attributes": {
+        "category": "colors",
+        "type": "orange"
+      },
+      "path": [
+        "colors",
+        "orange"
       ]
     }
   },

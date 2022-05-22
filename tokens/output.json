@@ -19,6 +19,10 @@
     "blue": {
       "value": "#2d36e9",
       "type": "color"
+    },
+    "orange": {
+      "value": "#ffa800",
+      "type": "color"
     }
   },
   "space": {
