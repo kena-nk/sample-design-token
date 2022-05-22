@@ -36,10 +36,11 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
+    # TODO: figma-tokensからpushした場合だけCI動かしたい
     - name: Commit & Push
       run: |
         git add .
-        git commit -m "test" -a
+        git commit -m "update" -a
         git push origin master
 
     # - run: npm publish
