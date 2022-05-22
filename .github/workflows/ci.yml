@@ -19,6 +19,17 @@ jobs:
     - name: build tokens
       run: yarn token
 
+    - name: git setting
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Commit & Push
+      run: |
+        git add .
+        git commit -m "test" -a
+        git push origin master
+
     # - run: npm publish
     #   env:
     #     NODE_TOKEN: ${{ secrets.AUTH_TOKEN }}
