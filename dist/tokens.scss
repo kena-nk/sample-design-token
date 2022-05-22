@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Sun, 22 May 2022 11:26:37 GMT
+ * Generated on Sun, 22 May 2022 11:35:43 GMT
  */
 
 $border-radius-xl: 16 !default;
@@ -12,6 +12,7 @@ $space-xl: 16 !default;
 $space-lg: 8 !default;
 $space-sm: 4 !default;
 $space-xs: 2 !default;
+$colors-blue: #2d36e9 !default;
 $colors-pink: #ffbdc8 !default;
 $colors-red: #df0000 !default;
 $colors-white: #ffffff !default;
@@ -22,7 +23,8 @@ $css-tokens: (
     'black': $colors-black,
     'white': $colors-white,
     'red': $colors-red,
-    'pink': $colors-pink
+    'pink': $colors-pink,
+    'blue': $colors-blue
   ),
   'space': (
     'xs': $space-xs,
