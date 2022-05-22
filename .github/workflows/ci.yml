@@ -41,8 +41,11 @@ jobs:
     - name: Commit & Push
       run: |
         git add .
-        git commit -m "update" -a
-        git push origin master
+        if ! git diff --exit-code --quiet
+        then
+          git commit -m "update" -a
+          git push origin master
+        fi
 
     - run: npm publish --access public
       env:
