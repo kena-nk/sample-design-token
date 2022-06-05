@@ -41,15 +41,17 @@ jobs:
     - name: Commit & Push
       run: |
         git add .
-        if ! git diff --exit-code --quiet
-        then
-          echo 'はいったよ'
-          git diff
-          git commit -m "update" -a
-          npm version patch --force
-          git push origin master
-          npm publish --access public
-        fi
+        git commit -m "update" -a
+        git push origin master
+        # if ! git diff --exit-code --quiet
+        # then
+        #   echo 'はいったよ'
+        #   git diff
+        #   git commit -m "update" -a
+        #   npm version patch --force
+        #   git push origin master
+        #   npm publish --access public
+        # fi
       env:
         NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
 
