@@ -43,6 +43,8 @@ jobs:
         git add .
         if ! git diff --exit-code --quiet
         then
+          echo 'はいったよ'
+          git diff
           git commit -m "update" -a
           npm version patch --force
           git push origin master
