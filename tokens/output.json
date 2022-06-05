@@ -23,6 +23,10 @@
     "orange": {
       "value": "#ffa800",
       "type": "color"
+    },
+    "yellow": {
+      "value": "#ffe50f",
+      "type": "color"
     }
   },
   "space": {
