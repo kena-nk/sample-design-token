@@ -45,9 +45,9 @@ jobs:
         then
           git add .
           git commit -m "update" -a
-          # npm version patch --force
+          npm version patch --force
           git push origin master
-          # npm publish --access public
+          npm publish --access public
         fi
       env:
         NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
