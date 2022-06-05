@@ -41,14 +41,10 @@ jobs:
 
     - name: Commit & Push & npm publish
       run: |
-        git add -N .
-        if ! git diff --exit-code --quiet
-        then
-          git add .
-          git commit -m "update" -a
-          npm version patch --force
-          git push origin master
-          npm publish --access public
-        fi
+        git add .
+        git commit -m "update" -a
+        npm version patch --force
+        git push origin master
+        npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
