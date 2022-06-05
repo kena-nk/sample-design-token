@@ -1,6 +1,8 @@
 name: ci
 
-on: [push]
+on:
+  push:
+    paths: ['tokens/data/tokens.json']
 
 jobs:
   build:
@@ -37,8 +39,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-    # TODO: figma-tokensからpushした場合だけCI動かしたい
-    - name: Commit & Push
+    - name: Commit & Push & npm publish
       run: |
         git add -N .
         if ! git diff --exit-code --quiet
@@ -51,7 +52,3 @@ jobs:
         fi
       env:
         NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-
-    # - run: npm publish --access public
-    #   env:
-    #     NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
