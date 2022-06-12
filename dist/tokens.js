@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 12 Jun 2022 12:57:40 GMT
+ * Generated on Sun, 12 Jun 2022 13:01:37 GMT
  */
 
 module.exports = {
@@ -136,44 +136,6 @@ module.exports = {
       "path": [
         "colors",
         "yellow"
-      ]
-    },
-    "purple": {
-      "value": "#af15f8",
-      "type": "color",
-      "filePath": "tokens/output.json",
-      "isSource": true,
-      "original": {
-        "value": "#af15f8",
-        "type": "color"
-      },
-      "name": "ColorsPurple",
-      "attributes": {
-        "category": "colors",
-        "type": "purple"
-      },
-      "path": [
-        "colors",
-        "purple"
-      ]
-    },
-    "green": {
-      "value": "#2ad31d",
-      "type": "color",
-      "filePath": "tokens/output.json",
-      "isSource": true,
-      "original": {
-        "value": "#2ad31d",
-        "type": "color"
-      },
-      "name": "ColorsGreen",
-      "attributes": {
-        "category": "colors",
-        "type": "green"
-      },
-      "path": [
-        "colors",
-        "green"
       ]
     }
   },
