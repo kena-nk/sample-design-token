@@ -31,6 +31,10 @@
     "purple": {
       "value": "#af15f8",
       "type": "color"
+    },
+    "green": {
+      "value": "#2ad31d",
+      "type": "color"
     }
   },
   "space": {
