@@ -27,6 +27,10 @@
     "yellow": {
       "value": "#ffe50f",
       "type": "color"
+    },
+    "purple": {
+      "value": "#a60ffa",
+      "type": "color"
     }
   },
   "space": {
